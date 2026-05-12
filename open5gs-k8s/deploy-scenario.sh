@@ -42,7 +42,7 @@ SUBSCRIPTION_MANAGER_RELEASE="open5gs-subscriber-manager"
 TOOLBOX_CHART="oci://ghcr.io/niloysh/charts/xnet-toolbox:0.1.0"
 CORE_CHART="oci://ghcr.io/niloysh/charts/xnet-open5gs:0.1.0"
 RAN_CHART="oci://ghcr.io/niloysh/charts/xnet-ueransim:0.1.0"
-SUBSCRIPTION_MANAGER_CHART="oci://ghcr.io/niloysh/charts/open5gs-subscriber-manager:0.1.2"
+SUBSCRIPTION_MANAGER_CHART="oci://ghcr.io/niloysh/charts/xnet-open5gs-subscriber-manager:0.1.2"
 
 # The toolbox pod writes the generated values files here before they are copied
 # back to your local scenario bundle directory.
