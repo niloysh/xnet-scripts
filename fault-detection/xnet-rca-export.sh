@@ -32,7 +32,7 @@ usage() {
 NAMESPACE=""
 WINDOW=""
 OUTPUT_DIR=""
-IMAGE_TAG="${IMAGE_TAG:-v0.1.8}"
+IMAGE_TAG="${IMAGE_TAG:-v0.1.9}"
 IMAGE="${IMAGE:-ghcr.io/niloysh/xnet-rca-export:${IMAGE_TAG}}"
 MONITORING_NS="${MONITORING_NS:-monitoring}"
 SA_NAME="${SA_NAME:-xnet-rca}"
