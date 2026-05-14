@@ -1,0 +1,14 @@
+# NWDAF demo overlay for xnet-5g-stack.
+#
+# Applies on top of the umbrella's defaults:
+#   helm install nwdaf oci://ghcr.io/niloysh/charts/xnet-5g-stack \
+#     -f demo/nwdaf/values.yaml
+#
+# Layers added vs the default scenario:
+#   - SMF and UPF event-exposure ports/services
+#   (the chart already defaults to the EES-capable open5gs image at
+#    ghcr.io/niloysh/open5gs-ees:v2.7.0-1, so no image override needed)
+
+xnet-open5gs:
+  eventExposure:
+    enabled: true
